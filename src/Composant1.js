@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import './Composant.css';
-import Composant2 from './Composant2';
-
-export default function Composant() {
+import './Composant1.css';
+import { Link } from 'react-router-dom';
+import { Routes,Route } from 'react-router-dom';
+import './Composant2' ;
+export default function Composant1() {
     const [matricule, setMatricule] = useState('');
     const [date, setDate] = useState('');
     const [color, setColor] = useState('');
@@ -72,9 +73,15 @@ export default function Composant() {
             </ul>
           </div>
         )}
+          <div className='links'>
+      <Link to="/Composant2" style={{textDecoration:"none"}}> la liste de salarie</Link><br />
+      <Link to="/Composant3" style={{textDecoration:"none"}}> Recherche par service</Link>
+      </div>
      
       </form>
-      <Composant2/>
+      
+        
+      
       </div>
   
        

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './Composant3.css';
 export default function Composant3() {
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredSalaries, setFilteredSalaries] = useState([]);
@@ -34,7 +34,7 @@ export default function Composant3() {
                 value={searchTerm} 
                 onChange={(e) => setSearchTerm(e.target.value)} 
             />
-            <button onClick={handleSearch}>Chercher</button>
+            <button onClick={handleSearch} className='chercher'>Chercher</button>
 
             <div className="resultat">
                 <h2>Résultat:</h2>
