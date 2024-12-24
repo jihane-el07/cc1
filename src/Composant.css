@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Form Styles */
+  .formulaire {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulaire  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #444;
+  }
+  
+  .formulaire  input,
+  .formulaire  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .formulaire  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .formulaire  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Recap Div Styles */
+  .showDiv {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #eef;
+   
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .showDiv h1 {
+    color: #2d6a4f;
+  }
+  
+  
